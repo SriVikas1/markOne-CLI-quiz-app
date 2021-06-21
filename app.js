@@ -3,7 +3,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var output = document.querySelector("#txt-output");
 
 function translatedURL(text){
-  return "https://api.funtranslations.com/translate/minion.json?text=Hello%2C%20I%20am%20hungry%21" + "?" + "text" + text
+  return "https://api.funtranslations.com/translate/minion.json"+"?text="+text
 }
 
 function errorHandler(){
